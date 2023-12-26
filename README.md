@@ -160,7 +160,7 @@ RepoFileExtensions="js pl py sh ts"
 可添加定时任务，名称、时间自定
 
 ```sh
-ql repo https://github.com/OreosLab/checkinpanel.git "api_|ck_|ins_" "^checkin" "^notify|^utils|cpm" "master"
+ql repo https://github.com/kaipol/checkinpanel.git "api_|ck_|ins_" "^checkin" "^notify|^utils|cpm" "master"
 ```
 
 ### 3. 安装依赖
@@ -176,13 +176,13 @@ ql repo https://github.com/OreosLab/checkinpanel.git "api_|ck_|ins_" "^checkin" 
 ### 4. 拷贝文件
 
 ```sh
-cp /ql/repo/OreosLab_checkinpanel_master/check.sample.toml /ql/config/check.toml
+cp /ql/repo/kaipol_checkinpanel_master/check.sample.toml /ql/config/check.toml
 ```
 
 *通知配置文件（可选）*
 
 ```sh
-cp /ql/repo/OreosLab_checkinpanel_master/notify.sample.toml /ql/config/notify.toml
+cp /ql/repo/kaipol_checkinpanel_master/notify.sample.toml /ql/config/notify.toml
 ```
 
 ### 5. 配置通知
